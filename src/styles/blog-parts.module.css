@@ -5,9 +5,17 @@
 
 .postTags {
   font-size: 0.9rem;
+  margin-top: 0.5rem;
 }
 .postTags a {
-  padding-right: 0.8rem;
+  border: 1px solid #e6e6e6;
+  padding: 0.2rem;
+  margin: 0 0.5rem 0rem 0;
+  color:#888;
+}
+
+.postTags a:hover {
+  border: 1px solid #a8abb1;
 }
 
 .postTitle {
@@ -81,11 +89,32 @@
 
 .blogPostLink {
 }
-.blogPostLink h3 {
+
+
+/* サイドバー見出し変更 */
+.blogPostLink{
+  background: #eeeeee;
+  border-radius: 10px; 
+}
+.blogPostLink h3{
+  position: relative;
+  color: rgb(81, 81, 81);
+  background: #d7d7d7;
+  line-height: 1.4;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  border-radius: 10px 10px 0px 0px; 
+}
+/* .blogPostLink h3 {
   margin: 0;
   font-size: 1.1rem;
-}
+} */
 .blogPostLink ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0.3rem;
+  margin-bottom: 20px;
+}
+.blogPostLink li {
   list-style-type: none;
   padding: 0;
   margin-top: 0.3rem;
@@ -97,7 +126,7 @@
   padding-left: 0.7rem;
   line-height: 1.2rem;
 }
-.blogPostLink ul li:before {
+/* .blogPostLink ul li:before {
   border-radius: 50%;
   width: 5px;
   height: 5px;
@@ -106,37 +135,44 @@
   left: 0;
   top: 0.9rem;
   content: '';
-  background: #333;
-}
+  background: rgb(254, 0, 0);
+} */
 
 .blogTagLink {
 }
-.blogTagLink h3 {
+/* 見出し 変更 */
+.blogTagLink{
+  background: #eeeeee;
+  border-radius: 10px; 
+}
+.blogTagLink h3{
+  position: relative;
+  color: rgb(75, 75, 75);
+  background: #d7d7d7;
+  line-height: 1.4;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  border-radius: 10px 10px 0px 0px; 
+}
+/* .blogTagLink h3 {
   margin: 0;
   font-size: 1.1rem;
-}
+} */
 .blogTagLink ul {
   list-style-type: none;
-  padding: 0;
-  margin-top: 0.3rem;
+  padding: 0px 5px;
 }
 .blogTagLink ul li {
-  position: relative;
-  font-size: 1rem;
-  padding: 0.4rem 0;
-  padding-left: 0.7rem;
-  line-height: 1.2rem;
+  display: inline-block;
+  margin: 0 0em 1em 0;
 }
-.blogTagLink ul li:before {
-  border-radius: 50%;
-  width: 5px;
-  height: 5px;
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0.9rem;
-  content: '';
-  background: #333;
+.blogTagLink a {
+  border: 1px solid #e6e6e6;
+  padding: 0.4em;
+  margin: 0 0.5em 0em 0;
+  color:#888;
+}
+.blogTagLink a:hover {
+  border: 1px solid #a8abb1;
 }
 
 .postsNotFound {

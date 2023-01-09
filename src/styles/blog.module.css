@@ -1,6 +1,12 @@
 .container {
   display: flex;
   justify-content: space-between;
+  margin-right: auto;
+  margin-left : auto;
+  margin-top: 2%;
+  padding : 0% 2%;
+  max-width: 1200px;
+  
 }
 @media (max-width: 600px) {
   .container {
@@ -9,7 +15,10 @@
 }
 
 .mainContent {
-  width: 60%;
+  width: 72%;
+ padding: 3% 3%;
+ border-radius: 10px; 
+  background: #eeeeee;
 }
 @media (max-width: 600px) {
   .mainContent {
@@ -32,7 +41,7 @@
 }
 
 .subContent {
-  width: 35%;
+  width: 25%;
 }
 @media (max-width: 600px) {
   .subContent {

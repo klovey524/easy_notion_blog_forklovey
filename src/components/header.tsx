@@ -24,7 +24,7 @@ const Header = () => {
           <a>{SITE_TITLE}</a>
         </Link>
       </h1>
-
+      <nav>
       <ul>
         {navItems.map(({ label, path }) => (
           <li key={label}>
@@ -34,6 +34,7 @@ const Header = () => {
           </li>
         ))}
       </ul>
+      </nav>
     </header>
   )
 }

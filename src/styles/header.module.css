@@ -1,3 +1,41 @@
+
+
+
+/* header */
+
+.header {
+  padding: 16px 24px;
+  background-color: #c6c6c6;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+.header h1 a {
+  color: #333;
+  font-size: 30px;
+}
+
+/* nav */
+
+.header ul {
+  list-style: none;
+  display: flex
+}
+.header li a {
+  padding: 10px 15px;
+  color: #333;
+  font-weight: bold;
+}
+.header li a:hover {
+  text-decoration: underline;
+}
+
+/*==============================================
+.header {
+  width: 100%;
+  padding: 30px 4% 10px;
+  background-color: #fff;
+}
 .header {
   display: block;
   padding: 15px 0;
@@ -29,3 +67,4 @@
 .header ul li :global(a.active) {
   color: var(--accents-3);
 }
+===========================================*/
